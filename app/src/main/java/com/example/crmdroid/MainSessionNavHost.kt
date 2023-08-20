@@ -12,7 +12,8 @@ class MainSessionNavHost : TurboSessionNavHostFragment() {
 
     override val registeredFragments: List<KClass<out Fragment>>
         get() = listOf(
-            WebFragment::class
+            WebFragment::class,
+            WebBottomSheetFragment::class
         )
 
     override val registeredActivities: List<KClass<out AppCompatActivity>>
