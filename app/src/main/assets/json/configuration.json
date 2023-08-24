@@ -22,6 +22,15 @@
         "uri": "turbo://fragment/web/bottom/sheet",
         "pull_to_refresh_enabled": false
       }
+    },
+    {
+      "patterns": [
+        "/hello_world"
+      ],
+      "properties": {
+        "context": "default",
+        "uri": "turbo://fragment/hello_world"
+      }
     }
   ]
 }
